@@ -1,8 +1,8 @@
 let indicacion;
 let history = [];
-
+const CONVERSION = 1300;
 function convertCurrency(pesos) {
-    return pesos/1300;
+    return pesos/CONVERSION;
 }
 
 while (indicacion !== "2") {
